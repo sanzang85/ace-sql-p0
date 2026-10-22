@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+portable_template_llm_module/outputs/
+portable_template_llm_module/data/knowledge/
+portable_template_llm_module/data/inputs/
+portable_template_llm_module/data/ground_truth/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx

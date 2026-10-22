@@ -1,0 +1,48 @@
+{
+  "default_profile": "qwen38_p0",
+  "profiles": {
+    "qwen38_p0": {
+      "description": "Qwen3.8-27B accuracy-focused pipeline with query-derived intent constraints.",
+      "aliases": [
+        "patent2-accuracy",
+        "default",
+        "main"
+      ],
+      "env": {
+        "VLLM_BASE_URL": "http://localhost:8002",
+        "VLLM_CHAT_MODEL": "Qwen3.8-27B",
+        "VLLM_RERANK_MODEL": "Qwen3.8-27B",
+        "VLLM_API_KEY": "EMPTY",
+        "VLLM_MAX_TOKENS": "4096",
+        "VLLM_EXTRA_BODY_JSON": "{\"chat_template_kwargs\": {\"enable_thinking\": false}}",
+        "VLLM_EMBEDDING_BASE_URL": "http://localhost:8000",
+        "VLLM_EMBEDDING_MODEL": "Qwen3-Embedding-8B",
+        "USE_VLLM_EMBEDDINGS": "1",
+        "NL2SQL_USE_TEMPLATE_KNOWLEDGE": "0",
+        "NL2SQL_USE_VECTOR_RETRIEVAL": "0",
+        "NL2SQL_TEMPLATE_LLM_ONLY": "1",
+        "NL2SQL_CUT_BATCH_DETERMINISTIC_FASTPATH": "0",
+        "NL2SQL_SQL_PRECHECK_MAX_RETRIES": "3",
+        "NL2SQL_PLAN_VALIDATION_MAX_RETRIES": "2",
+        "NL2SQL_SCHEMA_RETRY_MAX_RETRIES": "1",
+        "NL2SQL_VECTOR_SCHEMA_TOPK": "5",
+        "NL2SQL_VECTOR_TEMPLATE_TOPK": "3",
+        "NL2SQL_VECTOR_ALIAS_TOPK": "6",
+        "NL2SQL_TEMPLATE_LIFECYCLE_ENABLED": "1",
+        "NL2SQL_TEMPLATE_MATCH_EMBEDDINGS": "0",
+        "NL2SQL_TEMPLATE_EXPLORATION_RATIO": "0",
+        "NL2SQL_STORE_DISCOVERY_TEXT": "0",
+        "NL2SQL_VALUE_PROBES_ENABLED": "1",
+        "NL2SQL_READ_TIMEOUT": "15",
+        "NL2SQL_MAX_RESULT_ROWS": "5000",
+        "NL2SQL_LOW_RISK_TEMPLATE_MODE": "0",
+        "NL2SQL_ACCURACY_MODE": "1",
+        "NL2SQL_SEMANTIC_REVIEW_ENABLED": "1",
+        "NL2SQL_EXPLORATION_GENERIC_KNOWLEDGE": "1",
+        "NL2SQL_SEMANTIC_REVIEW_THINKING": "0",
+        "NL2SQL_SEMANTIC_REVIEW_MAX_TOKENS": "4096",
+        "NL2SQL_KNOWLEDGE_MODE": "four_files"
+      }
+    }
+  }
+}

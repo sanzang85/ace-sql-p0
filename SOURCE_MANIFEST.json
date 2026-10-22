@@ -1,0 +1,310 @@
+{
+  "source": "ace_sql_p0_clean",
+  "scope": "Code and scripts; private data are ignored by Git. Original runtime package is unchanged.",
+  "changed_existing_files": [
+    ".env.example",
+    ".gitignore",
+    "README.md",
+    "portable_template_llm_module/data/config/model_profiles.json",
+    "portable_template_llm_module/nl2sql_template_core/config.py",
+    "run_new_questions.sh",
+    "scripts/common.sh"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "d20f07abe8433fd964ffa9c3eca8f6672b2e970adb68d5d45c22e1217ca4d822",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a91bddc1eaabbb84cfeb9bc60198213608d93a233d31152d293510085d913d45",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "README.md",
+      "sha256": "0aee40e0a683628b49f88e6bcc4c976a3ebb265ef30bf2d0513dc13517aef557",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "ace_sql_patent2.py",
+      "sha256": "9038fb12b53cb0ff9b934cb6db1cbad77e17ca8f98c0aad2a4e4fcc03ddff4e5",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "check_environment.sh",
+      "sha256": "e7f19b8be2a2ad86e33f7d4f60031c40bdc01375da37912948929a3673ff7b64",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/data/config/model_profiles.json",
+      "sha256": "7714af361f5dc925bebc61f4717a313a708dce011cf5b591f1dee3f55a708815",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/__init__.py",
+      "sha256": "8f8b0aa1d95a81f53f0199aa78a0c8bcfb46beac02c3126b4ef2b7aa96323f61",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/analysis.py",
+      "sha256": "768a8b6746d09978b8989851abe78a10b6b3221e80c53b5d14fc6ed19f56aba7",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/cli.py",
+      "sha256": "95d68026e1da7b6a6425bb1d31726d66af897f071db76df894c3dd983d259738",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/config.py",
+      "sha256": "c3bd417544f3a65f616d4c75978af4ce7a30364f45660150e146739c398b61ff",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/domain.py",
+      "sha256": "6c0b14ffe9cc13f536a508f321905a4fa212791ee583775f1de3dbb284c8147e",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/domain_query_hints.py",
+      "sha256": "7288a2d15f68418879277b08701df67333c33f10694f5380df573905465f15b7",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/evaluation.py",
+      "sha256": "6dcdaf6ecc933ba8948b924a8ed6898b35c3a6ac12a0d159f23d561fafbbe960",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/execution.py",
+      "sha256": "a77f07bae238b82eb0d01e4a358a9575feb3fecc4db52c9b16e65d3c4bbe1a50",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/experiment_controls.py",
+      "sha256": "a2124d2c29539b001ec512d63d3475e3fab8ba3a9beebef665d3f9fc04f1cb67",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/generation.py",
+      "sha256": "1a04d28cb7d57b2a9154ef04d3cbc5612588771ef96c0ae3874d0603bd649fb3",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/intent_contracts.py",
+      "sha256": "d3fbde68ce19b90f554bc47bec8e016554f05be0c46bc0de6bff20ebaf13dd3d",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/knowledge.py",
+      "sha256": "2481ec989d3d97add8ed014726188799426e34e20e0bb406d3f455ddc381fe8a",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/knowledge_boundary.py",
+      "sha256": "d58369d028ab7091b45bb6ff1876bf9d784980539494b68a65deb44257f20135",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/lifecycle.py",
+      "sha256": "8ad3c8c1a7a09fb1b2b8f0166ba21081d52476ae0524558b47639a26a287bb1e",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/lifecycle_runtime.py",
+      "sha256": "b7c8b6fe6249782327dde6332382a1a421a57fb638545673f498f423ff502176",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/llm_client.py",
+      "sha256": "cab2773aa54a0086915021d0750419e8cb6dccc624b1e6f2abc1196450a418f1",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/main.py",
+      "sha256": "c90fe7b144b0c7a077d38a3e5f8aebaa5240341ed94e35b772123f693ff2db9e",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/plan_validation.py",
+      "sha256": "606bf351511b4f683d2751dba27f975e9fda241cf83098ac6fd409829529b196",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/planning.py",
+      "sha256": "246922e1e18dac839e49695cd067956a1666c76b1e8cf9c4d722f13db9d4d6ea",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/profiles.py",
+      "sha256": "f712074fa9c8c26aa06922b65e951cb9d33cc98f9c1adbb9acb75d536ec3f168",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/quality_contracts.py",
+      "sha256": "00f5d101040138fb586068cc320cd4d2e436a363a19175c7cedcb033e0879a46",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/query_evidence.py",
+      "sha256": "05809a8242bd371c29470ac565785b49ec2a38125aca4e3601738acbe0241108",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/readonly_db.py",
+      "sha256": "cce2aaba12bee5ab1fd7b126b652007e53c429638f406e93779859c0669a03af",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/reporting.py",
+      "sha256": "778c65a5b2af084275c371c4af7db510a6c14474eb7c06f5a4b58bdecf5efaa8",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/retrieval.py",
+      "sha256": "8946ef98af77e437b8a47dd5930e1da21a77ec0901e71d8378565ca47c418e33",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/rule_catalog.py",
+      "sha256": "764e8c52c6f2eb1ee3b857ca42af3a9c50aca0d241c07a9bb58b8111cf1ea227",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/runtime.py",
+      "sha256": "04ed00de08b3fb380ac36000e5615ed2ad9f3e3f84970a3260b8a0d581dd9fbd",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/schema_catalog.py",
+      "sha256": "d1326d14b1e6c06107443c58e50f0667a8ef4290f0044e94670826ac2f436b52",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/state.py",
+      "sha256": "131ba38a6af77c7edac3639880de92cf5dbb6c9ec28565665c0394d9b0e58531",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/text_utils.py",
+      "sha256": "ac19812c867639a101174c4f8036c243cb5cef8088adcad467e7ac6f1dc17cd8",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/trace.py",
+      "sha256": "c44620ae78c4f909586d9b5efa38e504fbcc1432e77dcfb8651f757d26371de1",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/validation.py",
+      "sha256": "fbf63af649d9866f6eac0ab66868ce7f88e74b1d16baefc3fb311dee99d46e10",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/vector_retrieval.py",
+      "sha256": "d64a2fc512b70e56b89213e6b562d4017a36268224623a24a27ab102853cda58",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "portable_template_llm_module/nl2sql_template_core/workflow.py",
+      "sha256": "add1da73790dbb6290b9ef10fd304dd0937d65f9a269aadea8555cc03c7c51ec",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "push_to_github.sh",
+      "sha256": "d4835ab5b2e43fb8ba95f1dca34480ae2382f1c8c11d8f70585a28b719ffce10",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "requirements-report.txt",
+      "sha256": "39f68f9536495a3ee85029663ce3a803b37bb110cb35011a57bb469354f2dae9",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "646c7c9dfd1813076f1cf82fa54971c02789f204632b01cc371e63024c83b5f5",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "run_benchmark.sh",
+      "sha256": "f437806ad375ef9ba0b46840e6f4a1d6152dc78706a1b4706aee56ab5e89cdcc",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "run_new_questions.sh",
+      "sha256": "1cc8c1e86082e666696c0a05341fef5c2cc7dc0d3847c114fe879a2514496967",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "run_query.sh",
+      "sha256": "02b3de93db32a80a537619ea8269905525015a740ced786f20102dc0deb9cc07",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "run_tests.sh",
+      "sha256": "b68edd41451f06bd89f3d4962455b8103e6dc352b1194a6edc4a921ebfefff0c",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/audit_p0.py",
+      "sha256": "abe4242a3dd7468e152ae41ea3b7cf542adc93a522f03bb85bc5991690e7efc5",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/audit_patent2_evidence.py",
+      "sha256": "850994d0bb6b40aacb6fcbf970aec3353bfac5e71865eafc3c815f18b207008d",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/check_environment.py",
+      "sha256": "ef8e1ff99f67234fa4a15f45737f57021afc2bd47453598b7265e58eaa119998",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/common.sh",
+      "sha256": "3ccb1bc78d83206f7c88e7ed64c0549f633ee542453f184b26ceb7824ba692fc",
+      "unchanged_from_p0_clean": false
+    },
+    {
+      "path": "scripts/export_patent2_answers.py",
+      "sha256": "c6f47259e8f162090f76802e03e94589efe768e4a5991c904082816796c84636",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/prepare_new_questions.py",
+      "sha256": "c52e8137e41a10124e916f643afa588b98522ee9a16f26dcf4bc1bd42e7c31e2",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/run_patent2_benchmark.py",
+      "sha256": "4450d1c7608d1eafcac44162815b705217a98db73e54afacba386fbd2189cfb8",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "scripts/summarize_patent2_benchmark.py",
+      "sha256": "8ae8964909d95cbd0436c4761257f431d181b1adf80be796945cde85d8ac5b04",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "setup.sh",
+      "sha256": "0dda7bd39bc7ae92ff3553acf40947941fb583a8b66849ad26f59db250b23491",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "summarize.sh",
+      "sha256": "ab923b055545e5e06750728bf9fa073d53e86d2bd9ac296274fa8d89fb8ec72b",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "tests/test_p0.py",
+      "sha256": "b3e68bf1a5a5167bdc0a1535ec89cf4de4c427fc35140fec2ef0eaea3f3dedd7",
+      "unchanged_from_p0_clean": true
+    },
+    {
+      "path": "tests/test_standalone_audit.py",
+      "sha256": "240aa1db6548b436ab082ccd449dae154a22bf96b600e1f34ffa1d028552d910",
+      "unchanged_from_p0_clean": true
+    }
+  ]
+}

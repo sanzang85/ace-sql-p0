@@ -1,0 +1,2 @@
+# Optional charts; tabular and Markdown reports work without these packages.
+matplotlib>=3.8,<4
