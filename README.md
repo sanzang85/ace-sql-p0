@@ -75,6 +75,4 @@ INPUT_FILE=/path/questions.csv GT_FILE=/path/answers.xlsx RUN_DIR=outputs/new_ru
 
 ## 发布副本说明
 
-本副本从 `ace_sql_p0_clean` 提取，不修改原运行版。仅调整部署默认值、移除内置数据库密码和机器专用路径、重写发布说明并忽略私有数据；模型生成、候选更新、复核、校验和评分算法保持原实现。精确差异及文件哈希见 `SOURCE_MANIFEST.json`。本仓库不附带专利申请材料。
-
-推送目标为 GitHub 账号 `sanzang85` 下的私有仓库 `ace-sql-p0`。完成 GitHub CLI 授权后，运行 `./push_to_github.sh`；脚本会核对登录账号，遇到已有远端仓库则停止，避免改写已有内容。
+本副本从 `ace_sql_p0_clean` 提取，不修改原运行版。仅调整部署默认值、移除内置数据库密码和机器专用路径、重写发布说明并忽略私有数据；模型生成、候选更新、复核、校验和评分算法保持原实现。
